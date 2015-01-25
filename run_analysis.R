@@ -67,3 +67,4 @@ colnames(final_avg)[1:2] <- c("ActivityName","SubjectNbr")
 write.table(final_avg,"./final_avg.txt",row.names=FALSE,sep=",")
 
 
+
