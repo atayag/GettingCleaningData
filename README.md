@@ -1,14 +1,14 @@
 # README.md for run_analysis.R
 
 Getting the Data
-================
+----------------
 The data for the script can be downloaded from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
 
 Preparing data and running R script
-===================================
+-----------------------------------
 1. Unzip the file into the folder "UCI HAR Dataset".
 2. Open R Studio and set working directory to the folder where "UCI HAR Dataset" exist.
 3. Open run_analysis.R and run.   
@@ -22,14 +22,14 @@ R Script run_analysis.R processing steps
 1. Set the working directory to "UCI HAR Dataset".
 
 2. Read the following files into their own data frame.
-* features.txt - this data provides the column names of the train and test data 
-* activity_labels.txt - this data provides the Activity Code its Activity Name
-* x_train.txt - this data provides quantitative measurements of the variables
-* subject_train.txt - this data provided the subjects in the train dataset
-* y_train.txt - this data provides the activity code of each observation
-* x_test.txt - this data provides quantitative measurements of the variables
-* subject_test.txt - this data provided the subjects in the test dataset
-* y_test.txt - this data provides the activity code of each observation
+   ** features.txt - this data provides the column names of the train and test data 
+   ** activity_labels.txt - this data provides the Activity Code its Activity Name
+   ** x_train.txt - this data provides quantitative measurements of the variables
+   ** subject_train.txt - this data provided the subjects in the train dataset
+   ** y_train.txt - this data provides the activity code of each observation
+   ** x_test.txt - this data provides quantitative measurements of the variables
+   ** subject_test.txt - this data provided the subjects in the test dataset
+   ** y_test.txt - this data provides the activity code of each observation
 
 3.  Change the column names of data frames with descriptive name and/or the provided names
 in features.txt.
