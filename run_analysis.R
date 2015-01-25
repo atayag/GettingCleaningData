@@ -49,6 +49,12 @@ train_test_df <- rbind(train_df,test_df)
 ##   #3 Uses descriptive activity names to name the activities in the data set        
 final <- merge(train_test_df, activity, by="ActivityCode") 
 
+##   #4 Appropriately labels the data set with descriptive variable names.
+names(final) <- gsub("[()]", "", names(final))
+names(final) <- gsub("-std", "-Std", names(final))
+names(final) <- gsub("-mean", "-Mean", names(final))
+
+
 ##  Move column "ActivityName" to first column and remove column "ActivityCode"
 final <- final[c(82,2:81)]
 

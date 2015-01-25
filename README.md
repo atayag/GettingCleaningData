@@ -18,7 +18,7 @@ Dataset".
 
 
 R Script run_analysis.R processing steps
-========================================
+----------------------------------------
 1. Set the working directory to "UCI HAR Dataset".
 
 2. Read the following files into their own data frame.
@@ -48,9 +48,11 @@ the same columns/variables.
 8. Join the data frame in # 7 using common column "ActivityCode".  This will add the 
 column ActivityName into the final data frame.
 
-9. Get the average of each variable group by "ActivityName" and "SubjectNbr".  
+9. Change all column names to descriptive and more readable form.
 
-10. The resulting data frame will have new group by columns.  Remove the original group by
+10. Get the average of each variable group by "ActivityName" and "SubjectNbr".  
+
+11. The resulting data frame will have new group by columns.  Remove the original group by
 columns and rename the new group by columns with "ActivityName" and "SubjectNbr". 
 
-11. Write the tidy data set into the file final_avg.txt
+12. Write the tidy data set into the file final_avg.txt
