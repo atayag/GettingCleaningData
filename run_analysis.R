@@ -1,3 +1,6 @@
+## Set working directory to datasets 
+setwd("./UCI HAR Dataset")
+
 ## Read labels/column names
 features <- read.table("features.txt",header=FALSE)
 activity <- read.table("activity_labels.txt",header=FALSE)
@@ -61,6 +64,6 @@ final_avg$SubjectNbr <- NULL
 colnames(final_avg)[1:2] <- c("ActivityName","SubjectNbr")
 
 ## write to file the dataframe 
-write.table(final_avg,"./final_avg.csv",row.names=TRUE,sep=",")
+write.table(final_avg,"./final_avg.txt",row.names=FALSE,sep=",")
 
 
