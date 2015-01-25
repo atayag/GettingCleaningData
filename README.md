@@ -22,14 +22,14 @@ R Script run_analysis.R processing steps
 1. Set the working directory to "UCI HAR Dataset".
 
 2. Read the following files into their own data frame.
-   ** features.txt - this data provides the column names of the train and test data 
-   ** activity_labels.txt - this data provides the Activity Code its Activity Name
-   ** x_train.txt - this data provides quantitative measurements of the variables
-   ** subject_train.txt - this data provided the subjects in the train dataset
-   ** y_train.txt - this data provides the activity code of each observation
-   ** x_test.txt - this data provides quantitative measurements of the variables
-   ** subject_test.txt - this data provided the subjects in the test dataset
-   ** y_test.txt - this data provides the activity code of each observation
+   a) features.txt - this data provides the column names of the train and test data 
+   b) activity_labels.txt - this data provides the Activity Code its Activity Name
+   c) x_train.txt - this data provides quantitative measurements of the variables
+   d) subject_train.txt - this data provided the subjects in the train dataset
+   e) y_train.txt - this data provides the activity code of each observation
+   f) x_test.txt - this data provides quantitative measurements of the variables
+   g) subject_test.txt - this data provided the subjects in the test dataset
+   h) y_test.txt - this data provides the activity code of each observation
 
 3.  Change the column names of data frames with descriptive name and/or the provided names
 in features.txt.
